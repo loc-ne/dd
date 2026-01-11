@@ -11,10 +11,10 @@
 
 # Environment variables (thay thế bằng URL backend thực tế của bạn)
 [context.production.environment]
-  NEXT_PUBLIC_API_URL = "https://introduction-se.onrender.com"
+  NEXT_PUBLIC_API_URL = "https://correct-kai-intro-se-01f26294.koyeb.app"
 
 [context.deploy-preview.environment]
-  NEXT_PUBLIC_API_URL = "https://introduction-se.onrender.com"
+  NEXT_PUBLIC_API_URL = "https://correct-kai-intro-se-01f26294.koyeb.app"
 
 # Headers cho CORS và security
 [[headers]]
