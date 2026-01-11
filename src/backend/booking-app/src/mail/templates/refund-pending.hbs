@@ -1,0 +1,84 @@
+<html>
+  <head>
+    <meta charset='utf-8' />
+    <style>
+      body {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: #333;
+        line-height: 1.6;
+      }
+      .container {
+        max-width: 600px;
+        margin: 0 auto;
+        border: 1px solid #e0e0e0;
+        border-radius: 8px;
+        overflow: hidden;
+      }
+      .header {
+        background-color: #f9a825;
+        color: white;
+        padding: 20px;
+        text-align: center;
+      }
+      .content {
+        padding: 30px;
+      }
+      .info-box {
+        background-color: #fffde7;
+        padding: 15px;
+        border-left: 4px solid #f9a825;
+        margin: 20px 0;
+      }
+      .footer {
+        padding: 20px;
+        text-align: center;
+        font-size: 12px;
+        color: #888;
+        border-top: 1px solid #eee;
+      }
+    </style>
+  </head>
+  <body>
+    <div class='container'>
+      <div class='header'>
+        <h2>Yêu cầu hoàn tiền đang được xử lý</h2>
+      </div>
+
+      <div class='content'>
+        <p>Chào <strong>{{name}}</strong>,</p>
+
+        <p>
+          Chúng tôi đã
+          <strong>nhận được yêu cầu hoàn tiền</strong>
+          của bạn và hiện đang trong quá trình
+          <strong>xem xét và xử lý</strong>.
+        </p>
+
+        <div class='info-box'>
+          <strong>Mã giao dịch:</strong>
+          {{transactionId}}<br />
+          <strong>Số tiền yêu cầu hoàn:</strong>
+          {{amount}}
+          VND<br />
+          <strong>Trạng thái:</strong>
+          Đang xử lý
+        </div>
+
+        <p>
+          Trong thời gian này, vui lòng
+          <strong>không gửi lại yêu cầu hoàn tiền cho cùng một giao dịch</strong>
+          để tránh trùng lặp xử lý.
+        </p>
+
+        <p>
+          Ngay khi có kết quả cuối cùng, chúng tôi sẽ
+          <strong>thông báo cho bạn qua email</strong>.
+        </p>
+      </div>
+
+      <div class='footer'>
+        © 2025 Group 05 - Team Newbie. Hệ thống quản lý đặt phòng trực tuyến.
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,84 @@
+<html>
+  <head>
+    <meta charset='utf-8' />
+    <style>
+      body {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: #333;
+        line-height: 1.6;
+      }
+      .container {
+        max-width: 600px;
+        margin: 0 auto;
+        border: 1px solid #e0e0e0;
+        border-radius: 8px;
+        overflow: hidden;
+      }
+      .header {
+        background-color: #f57c00;
+        color: white;
+        padding: 20px;
+        text-align: center;
+      }
+      .content {
+        padding: 30px;
+      }
+      .info-box {
+        background-color: #fff3e0;
+        padding: 15px;
+        border-left: 4px solid #f57c00;
+        margin: 20px 0;
+      }
+      .amount {
+        font-size: 24px;
+        color: #d32f2f;
+        font-weight: bold;
+      }
+      .button {
+        display: inline-block;
+        padding: 12px 30px;
+        background-color: #1976d2;
+        color: white;
+        text-decoration: none;
+        border-radius: 5px;
+        margin-top: 20px;
+      }
+      .footer {
+        padding: 20px;
+        text-align: center;
+        font-size: 12px;
+        color: #888;
+        border-top: 1px solid #eee;
+      }
+    </style>
+  </head>
+  <body>
+    <div class='container'>
+      <div class='header'>
+        <h2>⚠️ Thông báo về khiếu nại từ khách thuê</h2>
+      </div>
+
+      <div class='content'>
+        <p>Chào <strong>{{name}}</strong>,</p>
+
+        <p>Khách thuê <strong>{{renterName}}</strong> đã khiếu nại về phòng <strong>"{{roomTitle}}"</strong> của bạn. Admin đã xem xét và quyết định hoàn tiền cho khách.</p>
+
+        <div class='info-box'>
+          <p><strong>Số tiền hoàn trả cho khách:</strong></p>
+          <p class='amount'>{{refundAmount}} VNĐ</p>
+          <p style='margin-top: 15px;'><strong>Lý do:</strong></p>
+          <p>{{reason}}</p>
+        </div>
+
+        <p>Vui lòng xem lại quy định và cải thiện chất lượng dịch vụ để tránh những trường hợp tương tự trong tương lai.</p>
+
+        <a href='{{actionUrl}}' class='button'>Xem chi tiết đơn đặt phòng</a>
+      </div>
+
+      <div class='footer'>
+        <p>© 2025 Booking App. All rights reserved.</p>
+        <p>Email này được gửi tự động, vui lòng không trả lời.</p>
+      </div>
+    </div>
+  </body>
+</html>

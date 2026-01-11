@@ -1,0 +1,918 @@
+{
+    "cities": [
+        {
+            "city_code": "HCM",
+            "city_name": "Thành phố Hồ Chí Minh",
+            "lat": 10.7769,
+            "long": 106.7009,
+            "districts": [
+                {
+                    "district_code": "769",
+                    "district_name": "Thành phố Thủ Đức",
+                    "unit_type": "Thành phố",
+                    "lat": 10.823,
+                    "long": 106.771,
+                    "wards": [
+                        {
+                            "ward_code": "001",
+                            "ward_name": "Phường Hiệp Bình",
+                            "unit_type": "Phường",
+                            "lat": 10.823,
+                            "long": 106.771
+                        },
+                        {
+                            "ward_code": "002",
+                            "ward_name": "Phường Thủ Đức",
+                            "unit_type": "Phường",
+                            "lat": 10.823,
+                            "long": 106.771
+                        },
+                        {
+                            "ward_code": "003",
+                            "ward_name": "Phường Tam Bình",
+                            "unit_type": "Phường",
+                            "lat": 10.823,
+                            "long": 106.771
+                        },
+                        {
+                            "ward_code": "004",
+                            "ward_name": "Phường Linh Xuân",
+                            "unit_type": "Phường",
+                            "lat": 10.823,
+                            "long": 106.771
+                        },
+                        {
+                            "ward_code": "005",
+                            "ward_name": "Phường Tăng Nhơn Phú",
+                            "unit_type": "Phường",
+                            "lat": 10.823,
+                            "long": 106.771
+                        },
+                        {
+                            "ward_code": "006",
+                            "ward_name": "Phường Long Bình",
+                            "unit_type": "Phường",
+                            "lat": 10.823,
+                            "long": 106.771
+                        },
+                        {
+                            "ward_code": "007",
+                            "ward_name": "Phường Long Phước",
+                            "unit_type": "Phường",
+                            "lat": 10.823,
+                            "long": 106.771
+                        },
+                        {
+                            "ward_code": "008",
+                            "ward_name": "Phường Long Trường",
+                            "unit_type": "Phường",
+                            "lat": 10.823,
+                            "long": 106.771
+                        },
+                        {
+                            "ward_code": "009",
+                            "ward_name": "Phường Cát Lái",
+                            "unit_type": "Phường",
+                            "lat": 10.823,
+                            "long": 106.771
+                        },
+                        {
+                            "ward_code": "010",
+                            "ward_name": "Phường Bình Trưng",
+                            "unit_type": "Phường",
+                            "lat": 10.823,
+                            "long": 106.771
+                        },
+                        {
+                            "ward_code": "011",
+                            "ward_name": "Phường Phước Long",
+                            "unit_type": "Phường",
+                            "lat": 10.823,
+                            "long": 106.771
+                        },
+                        {
+                            "ward_code": "012",
+                            "ward_name": "Phường An Khánh",
+                            "unit_type": "Phường",
+                            "lat": 10.823,
+                            "long": 106.771
+                        }
+                    ]
+                },
+                {
+                    "district_code": "760",
+                    "district_name": "Quận 1",
+                    "unit_type": "Quận",
+                    "lat": 10.7757,
+                    "long": 106.7004,
+                    "wards": [
+                        {
+                            "ward_code": "001",
+                            "ward_name": "Phường Sài Gòn",
+                            "unit_type": "Phường",
+                            "lat": 10.7757,
+                            "long": 106.7004
+                        },
+                        {
+                            "ward_code": "002",
+                            "ward_name": "Phường Tân Định",
+                            "unit_type": "Phường",
+                            "lat": 10.7757,
+                            "long": 106.7004
+                        },
+                        {
+                            "ward_code": "003",
+                            "ward_name": "Phường Bến Thành",
+                            "unit_type": "Phường",
+                            "lat": 10.7757,
+                            "long": 106.7004
+                        },
+                        {
+                            "ward_code": "004",
+                            "ward_name": "Phường Cầu Ông Lãnh",
+                            "unit_type": "Phường",
+                            "lat": 10.7757,
+                            "long": 106.7004
+                        }
+                    ]
+                },
+                {
+                    "district_code": "770",
+                    "district_name": "Quận 3",
+                    "unit_type": "Quận",
+                    "lat": 10.7833,
+                    "long": 106.6833,
+                    "wards": [
+                        {
+                            "ward_code": "001",
+                            "ward_name": "Phường Bàn Cờ",
+                            "unit_type": "Phường",
+                            "lat": 10.7833,
+                            "long": 106.6833
+                        },
+                        {
+                            "ward_code": "002",
+                            "ward_name": "Phường Xuân Hòa",
+                            "unit_type": "Phường",
+                            "lat": 10.7833,
+                            "long": 106.6833
+                        },
+                        {
+                            "ward_code": "003",
+                            "ward_name": "Phường Nhiêu Lộc",
+                            "unit_type": "Phường",
+                            "lat": 10.7833,
+                            "long": 106.6833
+                        }
+                    ]
+                },
+                {
+                    "district_code": "773",
+                    "district_name": "Quận 4",
+                    "unit_type": "Quận",
+                    "lat": 10.756,
+                    "long": 106.701,
+                    "wards": [
+                        {
+                            "ward_code": "001",
+                            "ward_name": "Phường Xóm Chiếu",
+                            "unit_type": "Phường",
+                            "lat": 10.756,
+                            "long": 106.701
+                        },
+                        {
+                            "ward_code": "002",
+                            "ward_name": "Phường Khánh Hội",
+                            "unit_type": "Phường",
+                            "lat": 10.756,
+                            "long": 106.701
+                        },
+                        {
+                            "ward_code": "003",
+                            "ward_name": "Phường Vĩnh Hội",
+                            "unit_type": "Phường",
+                            "lat": 10.756,
+                            "long": 106.701
+                        }
+                    ]
+                },
+                {
+                    "district_code": "774",
+                    "district_name": "Quận 5",
+                    "unit_type": "Quận",
+                    "lat": 10.756,
+                    "long": 106.667,
+                    "wards": [
+                        {
+                            "ward_code": "001",
+                            "ward_name": "Phường Chợ Quán",
+                            "unit_type": "Phường",
+                            "lat": 10.756,
+                            "long": 106.667
+                        },
+                        {
+                            "ward_code": "002",
+                            "ward_name": "Phường An Đông",
+                            "unit_type": "Phường",
+                            "lat": 10.756,
+                            "long": 106.667
+                        },
+                        {
+                            "ward_code": "003",
+                            "ward_name": "Phường Chợ Lớn",
+                            "unit_type": "Phường",
+                            "lat": 10.756,
+                            "long": 106.667
+                        }
+                    ]
+                },
+                {
+                    "district_code": "775",
+                    "district_name": "Quận 6",
+                    "unit_type": "Quận",
+                    "lat": 10.746,
+                    "long": 106.634,
+                    "wards": [
+                        {
+                            "ward_code": "001",
+                            "ward_name": "Phường Bình Tây",
+                            "unit_type": "Phường",
+                            "lat": 10.746,
+                            "long": 106.634
+                        },
+                        {
+                            "ward_code": "002",
+                            "ward_name": "Phường Bình Tiên",
+                            "unit_type": "Phường",
+                            "lat": 10.746,
+                            "long": 106.634
+                        },
+                        {
+                            "ward_code": "003",
+                            "ward_name": "Phường Bình Phú",
+                            "unit_type": "Phường",
+                            "lat": 10.746,
+                            "long": 106.634
+                        },
+                        {
+                            "ward_code": "004",
+                            "ward_name": "Phường Phú Lâm",
+                            "unit_type": "Phường",
+                            "lat": 10.746,
+                            "long": 106.634
+                        }
+                    ]
+                },
+                {
+                    "district_code": "778",
+                    "district_name": "Quận 7",
+                    "unit_type": "Quận",
+                    "lat": 10.733,
+                    "long": 106.722,
+                    "wards": [
+                        {
+                            "ward_code": "001",
+                            "ward_name": "Phường Tân Thuận",
+                            "unit_type": "Phường",
+                            "lat": 10.733,
+                            "long": 106.722
+                        },
+                        {
+                            "ward_code": "002",
+                            "ward_name": "Phường Phú Thuận",
+                            "unit_type": "Phường",
+                            "lat": 10.733,
+                            "long": 106.722
+                        },
+                        {
+                            "ward_code": "003",
+                            "ward_name": "Phường Tân Mỹ",
+                            "unit_type": "Phường",
+                            "lat": 10.733,
+                            "long": 106.722
+                        },
+                        {
+                            "ward_code": "004",
+                            "ward_name": "Phường Tân Hưng",
+                            "unit_type": "Phường",
+                            "lat": 10.733,
+                            "long": 106.722
+                        }
+                    ]
+                },
+                {
+                    "district_code": "776",
+                    "district_name": "Quận 8",
+                    "unit_type": "Quận",
+                    "lat": 10.74,
+                    "long": 106.665,
+                    "wards": [
+                        {
+                            "ward_code": "001",
+                            "ward_name": "Phường Chánh Hưng",
+                            "unit_type": "Phường",
+                            "lat": 10.74,
+                            "long": 106.665
+                        },
+                        {
+                            "ward_code": "002",
+                            "ward_name": "Phường Phú Định",
+                            "unit_type": "Phường",
+                            "lat": 10.74,
+                            "long": 106.665
+                        },
+                        {
+                            "ward_code": "003",
+                            "ward_name": "Phường Bình Đông",
+                            "unit_type": "Phường",
+                            "lat": 10.74,
+                            "long": 106.665
+                        }
+                    ]
+                },
+                {
+                    "district_code": "771",
+                    "district_name": "Quận 10",
+                    "unit_type": "Quận",
+                    "lat": 10.768,
+                    "long": 106.668,
+                    "wards": [
+                        {
+                            "ward_code": "001",
+                            "ward_name": "Phường Diên Hồng",
+                            "unit_type": "Phường",
+                            "lat": 10.768,
+                            "long": 106.668
+                        },
+                        {
+                            "ward_code": "002",
+                            "ward_name": "Phường Vườn Lài",
+                            "unit_type": "Phường",
+                            "lat": 10.768,
+                            "long": 106.668
+                        },
+                        {
+                            "ward_code": "003",
+                            "ward_name": "Phường Hòa Hưng",
+                            "unit_type": "Phường",
+                            "lat": 10.768,
+                            "long": 106.668
+                        }
+                    ]
+                },
+                {
+                    "district_code": "772",
+                    "district_name": "Quận 11",
+                    "unit_type": "Quận",
+                    "lat": 10.763,
+                    "long": 106.643,
+                    "wards": [
+                        {
+                            "ward_code": "001",
+                            "ward_name": "Phường Minh Phụng",
+                            "unit_type": "Phường",
+                            "lat": 10.763,
+                            "long": 106.643
+                        },
+                        {
+                            "ward_code": "002",
+                            "ward_name": "Phường Bình Thới",
+                            "unit_type": "Phường",
+                            "lat": 10.763,
+                            "long": 106.643
+                        },
+                        {
+                            "ward_code": "003",
+                            "ward_name": "Phường Hòa Bình",
+                            "unit_type": "Phường",
+                            "lat": 10.763,
+                            "long": 106.643
+                        },
+                        {
+                            "ward_code": "004",
+                            "ward_name": "Phường Phú Thọ",
+                            "unit_type": "Phường",
+                            "lat": 10.763,
+                            "long": 106.643
+                        }
+                    ]
+                },
+                {
+                    "district_code": "761",
+                    "district_name": "Quận 12",
+                    "unit_type": "Quận",
+                    "lat": 10.867,
+                    "long": 106.653,
+                    "wards": [
+                        {
+                            "ward_code": "001",
+                            "ward_name": "Phường Đông Hưng Thuận",
+                            "unit_type": "Phường",
+                            "lat": 10.867,
+                            "long": 106.653
+                        },
+                        {
+                            "ward_code": "002",
+                            "ward_name": "Phường Trung Mỹ Tây",
+                            "unit_type": "Phường",
+                            "lat": 10.867,
+                            "long": 106.653
+                        },
+                        {
+                            "ward_code": "003",
+                            "ward_name": "Phường Tân Thới Hiệp",
+                            "unit_type": "Phường",
+                            "lat": 10.867,
+                            "long": 106.653
+                        },
+                        {
+                            "ward_code": "004",
+                            "ward_name": "Phường Thới An",
+                            "unit_type": "Phường",
+                            "lat": 10.867,
+                            "long": 106.653
+                        },
+                        {
+                            "ward_code": "005",
+                            "ward_name": "Phường An Phú Đông",
+                            "unit_type": "Phường",
+                            "lat": 10.867,
+                            "long": 106.653
+                        }
+                    ]
+                },
+                {
+                    "district_code": "777",
+                    "district_name": "Quận Bình Tân",
+                    "unit_type": "Quận",
+                    "lat": 10.749,
+                    "long": 106.606,
+                    "wards": [
+                        {
+                            "ward_code": "001",
+                            "ward_name": "Phường An Lạc",
+                            "unit_type": "Phường",
+                            "lat": 10.749,
+                            "long": 106.606
+                        },
+                        {
+                            "ward_code": "002",
+                            "ward_name": "Phường Bình Tân",
+                            "unit_type": "Phường",
+                            "lat": 10.749,
+                            "long": 106.606
+                        },
+                        {
+                            "ward_code": "003",
+                            "ward_name": "Phường Tân Tạo",
+                            "unit_type": "Phường",
+                            "lat": 10.749,
+                            "long": 106.606
+                        },
+                        {
+                            "ward_code": "004",
+                            "ward_name": "Phường Bình Trị Đông",
+                            "unit_type": "Phường",
+                            "lat": 10.749,
+                            "long": 106.606
+                        }
+                    ]
+                },
+                {
+                    "district_code": "762",
+                    "district_name": "Quận Bình Thạnh",
+                    "unit_type": "Quận",
+                    "lat": 10.804,
+                    "long": 106.712,
+                    "wards": [
+                        {
+                            "ward_code": "001",
+                            "ward_name": "Phường Gia Định",
+                            "unit_type": "Phường",
+                            "lat": 10.804,
+                            "long": 106.712
+                        },
+                        {
+                            "ward_code": "002",
+                            "ward_name": "Phường Bình Thạnh",
+                            "unit_type": "Phường",
+                            "lat": 10.804,
+                            "long": 106.712
+                        },
+                        {
+                            "ward_code": "003",
+                            "ward_name": "Phường Bình Lợi Trung",
+                            "unit_type": "Phường",
+                            "lat": 10.804,
+                            "long": 106.712
+                        },
+                        {
+                            "ward_code": "004",
+                            "ward_name": "Phường Thạnh Mỹ Tây",
+                            "unit_type": "Phường",
+                            "lat": 10.804,
+                            "long": 106.712
+                        },
+                        {
+                            "ward_code": "005",
+                            "ward_name": "Phường Bình Quới",
+                            "unit_type": "Phường",
+                            "lat": 10.804,
+                            "long": 106.712
+                        }
+                    ]
+                },
+                {
+                    "district_code": "766",
+                    "district_name": "Quận Tân Bình",
+                    "unit_type": "Quận",
+                    "lat": 10.799,
+                    "long": 106.654,
+                    "wards": [
+                        {
+                            "ward_code": "001",
+                            "ward_name": "Phường Tân Sơn Hòa",
+                            "unit_type": "Phường",
+                            "lat": 10.799,
+                            "long": 106.654
+                        },
+                        {
+                            "ward_code": "002",
+                            "ward_name": "Phường Tân Sơn Nhất",
+                            "unit_type": "Phường",
+                            "lat": 10.799,
+                            "long": 106.654
+                        },
+                        {
+                            "ward_code": "003",
+                            "ward_name": "Phường Tân Hòa",
+                            "unit_type": "Phường",
+                            "lat": 10.799,
+                            "long": 106.654
+                        },
+                        {
+                            "ward_code": "004",
+                            "ward_name": "Phường Bảy Hiền",
+                            "unit_type": "Phường",
+                            "lat": 10.799,
+                            "long": 106.654
+                        },
+                        {
+                            "ward_code": "005",
+                            "ward_name": "Phường Tân Bình",
+                            "unit_type": "Phường",
+                            "lat": 10.799,
+                            "long": 106.654
+                        },
+                        {
+                            "ward_code": "006",
+                            "ward_name": "Phường Tân Sơn",
+                            "unit_type": "Phường",
+                            "lat": 10.799,
+                            "long": 106.654
+                        }
+                    ]
+                },
+                {
+                    "district_code": "765",
+                    "district_name": "Quận Tân Phú",
+                    "unit_type": "Quận",
+                    "lat": 10.791,
+                    "long": 106.632,
+                    "wards": [
+                        {
+                            "ward_code": "001",
+                            "ward_name": "Phường Tây Thạnh",
+                            "unit_type": "Phường",
+                            "lat": 10.791,
+                            "long": 106.632
+                        },
+                        {
+                            "ward_code": "002",
+                            "ward_name": "Phường Tân Sơn Nhì",
+                            "unit_type": "Phường",
+                            "lat": 10.791,
+                            "long": 106.632
+                        },
+                        {
+                            "ward_code": "003",
+                            "ward_name": "Phường Phú Thọ Hòa",
+                            "unit_type": "Phường",
+                            "lat": 10.791,
+                            "long": 106.632
+                        },
+                        {
+                            "ward_code": "004",
+                            "ward_name": "Phường Phú Thạnh",
+                            "unit_type": "Phường",
+                            "lat": 10.791,
+                            "long": 106.632
+                        },
+                        {
+                            "ward_code": "005",
+                            "ward_name": "Phường Tân Phú",
+                            "unit_type": "Phường",
+                            "lat": 10.791,
+                            "long": 106.632
+                        }
+                    ]
+                },
+                {
+                    "district_code": "768",
+                    "district_name": "Quận Phú Nhuận",
+                    "unit_type": "Quận",
+                    "lat": 10.799,
+                    "long": 106.677,
+                    "wards": [
+                        {
+                            "ward_code": "001",
+                            "ward_name": "Phường Đức Nhuận",
+                            "unit_type": "Phường",
+                            "lat": 10.799,
+                            "long": 106.677
+                        },
+                        {
+                            "ward_code": "002",
+                            "ward_name": "Phường Cầu Kiệu",
+                            "unit_type": "Phường",
+                            "lat": 10.799,
+                            "long": 106.677
+                        },
+                        {
+                            "ward_code": "003",
+                            "ward_name": "Phường Phú Nhuận",
+                            "unit_type": "Phường",
+                            "lat": 10.799,
+                            "long": 106.677
+                        }
+                    ]
+                },
+                {
+                    "district_code": "764",
+                    "district_name": "Quận Gò Vấp",
+                    "unit_type": "Quận",
+                    "lat": 10.833,
+                    "long": 106.665,
+                    "wards": [
+                        {
+                            "ward_code": "001",
+                            "ward_name": "Phường Hạnh Thông",
+                            "unit_type": "Phường",
+                            "lat": 10.833,
+                            "long": 106.665
+                        },
+                        {
+                            "ward_code": "002",
+                            "ward_name": "Phường An Nhơn",
+                            "unit_type": "Phường",
+                            "lat": 10.833,
+                            "long": 106.665
+                        },
+                        {
+                            "ward_code": "003",
+                            "ward_name": "Phường Gò Vấp",
+                            "unit_type": "Phường",
+                            "lat": 10.833,
+                            "long": 106.665
+                        },
+                        {
+                            "ward_code": "004",
+                            "ward_name": "Phường Thông Tây Hội",
+                            "unit_type": "Phường",
+                            "lat": 10.833,
+                            "long": 106.665
+                        },
+                        {
+                            "ward_code": "005",
+                            "ward_name": "Phường An Hội Tây",
+                            "unit_type": "Phường",
+                            "lat": 10.833,
+                            "long": 106.665
+                        },
+                        {
+                            "ward_code": "006",
+                            "ward_name": "Phường An Hội Đông",
+                            "unit_type": "Phường",
+                            "lat": 10.833,
+                            "long": 106.665
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "city_code": "HN",
+            "city_name": "Thành phố Hà Nội",
+            "lat": 21.0285,
+            "long": 105.8341,
+            "districts": [
+                {
+                    "district_code": "005",
+                    "district_name": "Quận Cầu Giấy",
+                    "unit_type": "Quận",
+                    "lat": 21.0293,
+                    "long": 105.793,
+                    "wards": [
+                        {
+                            "ward_code": "001",
+                            "ward_name": "Phường Mai Dịch",
+                            "unit_type": "Phường",
+                            "lat": 21.0293,
+                            "long": 105.793
+                        },
+                        {
+                            "ward_code": "002",
+                            "ward_name": "Phường Dịch Vọng",
+                            "unit_type": "Phường",
+                            "lat": 21.0293,
+                            "long": 105.793
+                        },
+                        {
+                            "ward_code": "003",
+                            "ward_name": "Phường Nghĩa Đô",
+                            "unit_type": "Phường",
+                            "lat": 21.0293,
+                            "long": 105.793
+                        },
+                        {
+                            "ward_code": "004",
+                            "ward_name": "Phường Yên Hòa",
+                            "unit_type": "Phường",
+                            "lat": 21.0293,
+                            "long": 105.793
+                        },
+                        {
+                            "ward_code": "005",
+                            "ward_name": "Phường Nghĩa Tân",
+                            "unit_type": "Phường",
+                            "lat": 21.0293,
+                            "long": 105.793
+                        },
+                        {
+                            "ward_code": "006",
+                            "ward_name": "Phường Quan Hoa",
+                            "unit_type": "Phường",
+                            "lat": 21.0293,
+                            "long": 105.793
+                        },
+                        {
+                            "ward_code": "007",
+                            "ward_name": "Phường Dịch Vọng Hậu",
+                            "unit_type": "Phường",
+                            "lat": 21.0293,
+                            "long": 105.793
+                        },
+                        {
+                            "ward_code": "008",
+                            "ward_name": "Phường Trung Hòa",
+                            "unit_type": "Phường",
+                            "lat": 21.0293,
+                            "long": 105.793
+                        }
+                    ]
+                },
+                {
+                    "district_code": "007",
+                    "district_name": "Quận Hai Bà Trưng",
+                    "unit_type": "Quận",
+                    "lat": 21.005,
+                    "long": 105.858,
+                    "wards": [
+                        {
+                            "ward_code": "001",
+                            "ward_name": "Phường Hai Bà Trưng",
+                            "unit_type": "Phường",
+                            "lat": 21.005,
+                            "long": 105.858
+                        },
+                        {
+                            "ward_code": "002",
+                            "ward_name": "Phường Vĩnh Tuy",
+                            "unit_type": "Phường",
+                            "lat": 21.005,
+                            "long": 105.858
+                        },
+                        {
+                            "ward_code": "003",
+                            "ward_name": "Phường Bạch Mai",
+                            "unit_type": "Phường",
+                            "lat": 21.005,
+                            "long": 105.858
+                        }
+                    ]
+                },
+                {
+                    "district_code": "009",
+                    "district_name": "Quận Thanh Xuân",
+                    "unit_type": "Quận",
+                    "lat": 20.994,
+                    "long": 105.8,
+                    "wards": [
+                        {
+                            "ward_code": "001",
+                            "ward_name": "Phường Thanh Xuân",
+                            "unit_type": "Phường",
+                            "lat": 20.994,
+                            "long": 105.8
+                        },
+                        {
+                            "ward_code": "002",
+                            "ward_name": "Phường Khương Đình",
+                            "unit_type": "Phường",
+                            "lat": 20.994,
+                            "long": 105.8
+                        },
+                        {
+                            "ward_code": "003",
+                            "ward_name": "Phường Phương Liệt",
+                            "unit_type": "Phường",
+                            "lat": 20.994,
+                            "long": 105.8
+                        }
+                    ]
+                },
+                {
+                    "district_code": "006",
+                    "district_name": "Quận Đống Đa",
+                    "unit_type": "Quận",
+                    "lat": 21.01,
+                    "long": 105.832,
+                    "wards": [
+                        {
+                            "ward_code": "001",
+                            "ward_name": "Phường Đống Đa",
+                            "unit_type": "Phường",
+                            "lat": 21.01,
+                            "long": 105.832
+                        },
+                        {
+                            "ward_code": "002",
+                            "ward_name": "Phường Láng",
+                            "unit_type": "Phường",
+                            "lat": 21.01,
+                            "long": 105.832
+                        },
+                        {
+                            "ward_code": "003",
+                            "ward_name": "Phường Ô Chợ Dừa",
+                            "unit_type": "Phường",
+                            "lat": 21.01,
+                            "long": 105.832
+                        },
+                        {
+                            "ward_code": "004",
+                            "ward_name": "Phường Kim Liên",
+                            "unit_type": "Phường",
+                            "lat": 21.01,
+                            "long": 105.832
+                        },
+                        {
+                            "ward_code": "005",
+                            "ward_name": "Phường Văn Miếu - Quốc Tử Giám",
+                            "unit_type": "Phường",
+                            "lat": 21.01,
+                            "long": 105.832
+                        }
+                    ]
+                },
+                {
+                    "district_code": "019",
+                    "district_name": "Quận Nam Từ Liêm",
+                    "unit_type": "Quận",
+                    "lat": 21.014,
+                    "long": 105.76,
+                    "wards": [
+                        {
+                            "ward_code": "001",
+                            "ward_name": "Phường Từ Liêm",
+                            "unit_type": "Phường",
+                            "lat": 21.014,
+                            "long": 105.76
+                        },
+                        {
+                            "ward_code": "002",
+                            "ward_name": "Phường Xuân Phương",
+                            "unit_type": "Phường",
+                            "lat": 21.014,
+                            "long": 105.76
+                        },
+                        {
+                            "ward_code": "003",
+                            "ward_name": "Phường Tây Mỗ",
+                            "unit_type": "Phường",
+                            "lat": 21.014,
+                            "long": 105.76
+                        },
+                        {
+                            "ward_code": "004",
+                            "ward_name": "Phường Đại Mỗ",
+                            "unit_type": "Phường",
+                            "lat": 21.014,
+                            "long": 105.76
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

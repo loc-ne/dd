@@ -1,0 +1,86 @@
+<html>
+  <head>
+    <meta charset='utf-8' />
+    <style>
+      body {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: #333;
+        line-height: 1.6;
+      }
+      .container {
+        max-width: 600px;
+        margin: 0 auto;
+        border: 1px solid #e0e0e0;
+        border-radius: 8px;
+        overflow: hidden;
+      }
+      .header {
+        background-color: #c62828;
+        color: white;
+        padding: 20px;
+        text-align: center;
+      }
+      .content {
+        padding: 30px;
+      }
+      .info-box {
+        background-color: #fff5f5;
+        padding: 15px;
+        border-left: 4px solid #c62828;
+        margin: 20px 0;
+      }
+      .footer {
+        padding: 20px;
+        text-align: center;
+        font-size: 12px;
+        color: #888;
+        border-top: 1px solid #eee;
+      }
+    </style>
+  </head>
+  <body>
+    <div class='container'>
+      <div class='header'>
+        <h2>Hoàn tiền không thành công</h2>
+      </div>
+
+      <div class='content'>
+        <p>Chào <strong>{{name}}</strong>,</p>
+
+        <p>
+          Chúng tôi rất tiếc phải thông báo rằng
+          <strong>yêu cầu hoàn tiền của bạn chưa thể hoàn tất</strong>
+          tại thời điểm này.
+        </p>
+
+        <div class='info-box'>
+          <strong>Mã giao dịch:</strong>
+          {{transactionId}}<br />
+          <strong>Số tiền yêu cầu hoàn:</strong>
+          {{amount}}
+          VND<br />
+          <strong>Lý do:</strong>
+          {{reason}}<br />
+          <strong>Trạng thái:</strong>
+          Thất bại
+        </div>
+
+        <p>
+          Bạn
+          <strong>không bị trừ thêm bất kỳ khoản phí nào</strong>. Hệ thống của
+          chúng tôi sẽ tự động kiểm tra và xử lý lại nếu phù hợp.
+        </p>
+
+        <p>
+          Nếu bạn cần hỗ trợ gấp, vui lòng liên hệ bộ phận hỗ trợ và cung cấp
+          <strong>mã giao dịch</strong>
+          để được hỗ trợ nhanh nhất.
+        </p>
+      </div>
+
+      <div class='footer'>
+        © 2025 Group 05 - Team Newbie. Hệ thống quản lý đặt phòng trực tuyến.
+      </div>
+    </div>
+  </body>
+</html>

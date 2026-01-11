@@ -1,0 +1,25 @@
+[build]
+  command = "npm run build"
+  publish = ".next"
+
+[build.environment]
+  NEXT_PRIVATE_STANDALONE = "true"
+
+# Cấu hình cho Next.js runtime
+[[plugins]]
+  package = "@netlify/plugin-nextjs"
+
+# Environment variables (thay thế bằng URL backend thực tế của bạn)
+[context.production.environment]
+  NEXT_PUBLIC_API_URL = "https://introduction-se.onrender.com"
+
+[context.deploy-preview.environment]
+  NEXT_PUBLIC_API_URL = "https://introduction-se.onrender.com"
+
+# Headers cho CORS và security
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "DENY"
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"

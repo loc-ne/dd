@@ -1,0 +1,39 @@
+{
+  "name": "booking-app",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --turbopack -p 3001",
+    "build": "next build",
+    "start": "next start -p 3001",
+    "lint": "eslint"
+  },
+  "dependencies": {
+    "cloudinary": "^2.8.0",
+    "date-fns": "^4.1.0",
+    "firebase": "^12.5.0",
+    "lucide-react": "^0.548.0",
+    "next": "^16.1.1",
+    "next-cloudinary": "^6.17.1",
+    "react": "^19.2.3",
+    "react-dom": "^19.2.3",
+    "react-hot-toast": "^2.6.0",
+    "react-markdown": "^9.1.0",
+    "sweetalert2": "^11.26.3"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3",
+    "@netlify/plugin-nextjs": "^5.15.4",
+    "@tailwindcss/postcss": "^4",
+    "@types/leaflet": "^1.9.21",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "15.5.5",
+    "leaflet": "^1.9.4",
+    "react-leaflet": "^5.0.0",
+    "tailwindcss": "^4",
+    "typescript": "^5"
+  }
+}

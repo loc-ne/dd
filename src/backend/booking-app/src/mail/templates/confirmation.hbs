@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>Xác thực tài khoản Phongtro.vn</title>
+    <style>
+        /* Reset styles */
+        body {
+            background-color: #f1f7ff;
+            /* Nền xanh nhạt */
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            -webkit-font-smoothing: antialiased;
+            font-size: 14px;
+            line-height: 1.4;
+            margin: 0;
+            padding: 0;
+            -ms-text-size-adjust: 100%;
+            -webkit-text-size-adjust: 100%;
+        }
+
+        /* Container */
+        .container {
+            margin: 0 auto !important;
+            max-width: 600px;
+            padding: 20px;
+            width: 600px;
+        }
+
+        /* Card */
+        .content {
+            background: #ffffff;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 72, 255, 0.1);
+            overflow: hidden;
+            padding: 40px;
+            text-align: center;
+            border-top: 4px solid #0d6efd;
+            /* viền xanh đẹp */
+        }
+
+        /* Typography */
+        h1 {
+            color: #0a2b4e;
+            /* xanh navy tin cậy */
+            font-size: 24px;
+            font-weight: 700;
+            margin-bottom: 24px;
+            margin-top: 0;
+        }
+
+        p {
+            color: #4a5568;
+            font-size: 16px;
+            line-height: 24px;
+            margin-bottom: 24px;
+        }
+
+        /* Button */
+        .btn-primary {
+            background-color: #0d6efd;
+            /* Xanh blue */
+            border-radius: 6px;
+            color: #ffffff !important;
+            display: inline-block;
+            font-size: 16px;
+            font-weight: 600;
+            line-height: 50px;
+            text-align: center;
+            text-decoration: none;
+            width: 220px;
+            box-shadow: 0 4px 6px rgba(13, 110, 253, 0.3);
+            transition: all 0.15s ease;
+        }
+
+        .btn-primary:hover {
+            background-color: #0a58ca;
+            transform: translateY(-2px);
+        }
+
+        /* Footer */
+        .footer {
+            clear: both;
+            margin-top: 20px;
+            text-align: center;
+            width: 100%;
+        }
+
+        .footer p,
+        .footer a {
+            color: #6b7a99;
+            font-size: 12px;
+            text-decoration: none;
+        }
+
+        .separator {
+            border-top: 1px solid #e2e8f0;
+            margin: 30px 0;
+        }
+
+        .logo {
+            font-size: 20px;
+            font-weight: 900;
+            color: #0d6efd;
+            letter-spacing: -1px;
+            margin-bottom: 20px;
+            display: inline-block;
+            text-decoration: none;
+        }
+    </style>
+</head>
+
+<body>
+    <table role="presentation" border="0" cellpadding="0" cellspacing="0" class="body">
+        <tr>
+            <td>&nbsp;</td>
+            <td class="container">
+
+                <div style="text-align: center;">
+                    <a href="http://localhost:3000" class="logo">Newbie.com</a>
+                </div>
+
+                <div class="content">
+
+                    <img src="https://cdn-icons-png.flaticon.com/512/545/545682.png" alt="Verify" width="60"
+                        style="margin-bottom: 20px; opacity: 0.9;">
+
+                    <h1>Xác thực địa chỉ Email</h1>
+
+                    <p>Xin chào <strong>{{name}}</strong>,</p>
+
+                    <p>
+                        Cảm ơn bạn đã tham gia <strong>Newbie.com</strong>.
+                        Để đảm bảo sự tin cậy khi đăng tin và liên hệ thuê phòng, vui lòng xác thực địa chỉ email của
+                        bạn.
+                    </p>
+
+
+                    <table role="presentation" border="0" cellpadding="0" cellspacing="0" style="width: 100%;">
+                        <tr>
+                            <td align="center">
+                                <a href="{{url}}" target="_blank" class="btn-primary">
+                                    Xác thực ngay
+                                </a>
+                            </td>
+                        </tr>
+                    </table>
+
+                    <p style="margin-top: 24px; font-size: 14px; color: #6b7a99;">
+                        Liên kết này sẽ hết hạn sau <strong>24 giờ</strong>.
+                    </p>
+
+                    <div class="separator"></div>
+
+                </div>
+
+            </td>
+            <td>&nbsp;</td>
+        </tr>
+    </table>
+</body>
+
+</html>

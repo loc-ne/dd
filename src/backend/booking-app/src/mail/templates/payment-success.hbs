@@ -1,0 +1,193 @@
+<html>
+  <head>
+    <meta charset='utf-8' />
+    <style>
+      body {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: #333;
+        line-height: 1.6;
+      }
+      .container {
+        max-width: 600px;
+        margin: 0 auto;
+        border: 1px solid #e0e0e0;
+        border-radius: 8px;
+        overflow: hidden;
+      }
+      .header {
+        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        color: white;
+        padding: 30px 20px;
+        text-align: center;
+      }
+      .success-icon {
+        font-size: 48px;
+        margin-bottom: 10px;
+      }
+      .content {
+        padding: 30px;
+      }
+      .info-box {
+        background-color: #f0f7ff;
+        padding: 20px;
+        border-left: 4px solid #2196f3;
+        margin: 20px 0;
+        border-radius: 4px;
+      }
+      .info-row {
+        display: flex;
+        justify-content: space-between;
+        padding: 10px 0;
+        border-bottom: 1px solid #e0e0e0;
+      }
+      .info-row:last-child {
+        border-bottom: none;
+      }
+      .label {
+        color: #666;
+        font-weight: 500;
+      }
+      .value {
+        color: #333;
+        font-weight: bold;
+      }
+      .amount {
+        font-size: 32px;
+        color: #2e7d32;
+        font-weight: bold;
+        text-align: center;
+        margin: 20px 0;
+      }
+      .button {
+        display: inline-block;
+        padding: 14px 40px;
+        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        color: white;
+        text-decoration: none;
+        border-radius: 25px;
+        margin: 20px 0;
+        text-align: center;
+        font-weight: bold;
+      }
+      .steps {
+        background-color: #fff3e0;
+        padding: 20px;
+        border-radius: 8px;
+        margin: 20px 0;
+      }
+      .step {
+        padding: 10px 0;
+      }
+      .step-number {
+        display: inline-block;
+        width: 28px;
+        height: 28px;
+        background-color: #ff9800;
+        color: white;
+        border-radius: 50%;
+        text-align: center;
+        line-height: 28px;
+        margin-right: 10px;
+        font-weight: bold;
+      }
+      .footer {
+        padding: 20px;
+        text-align: center;
+        font-size: 12px;
+        color: #888;
+        border-top: 1px solid #eee;
+        background-color: #f9f9f9;
+      }
+      .highlight {
+        background-color: #fff9c4;
+        padding: 2px 6px;
+        border-radius: 3px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class='container'>
+      <div class='header'>
+        <div class='success-icon'>🎉</div>
+        <h1 style='margin: 0;'>Thanh toán thành công!</h1>
+        <p style='margin: 10px 0 0 0; opacity: 0.9;'>Đặt phòng của bạn đã được xác nhận</p>
+      </div>
+
+      <div class='content'>
+        <p>Chào <strong>{{name}}</strong>,</p>
+
+        <p>Cảm ơn bạn đã hoàn tất thanh toán tiền cọc! Đơn đặt phòng của bạn đã được <strong class='highlight'>XÁC NHẬN THÀNH CÔNG</strong>.</p>
+
+        <div class='info-box'>
+          <h3 style='margin-top: 0; color: #1976d2;'>📋 Thông tin đặt phòng</h3>
+          
+          <div class='info-row'>
+            <span class='label'>🏠 Phòng:</span>
+            <span class='value'>{{roomTitle}}</span>
+          </div>
+
+          <div class='info-row'>
+            <span class='label'>📅 Ngày dọn vào:</span>
+            <span class='value'>{{moveInDate}}</span>
+          </div>
+
+          <div class='info-row'>
+            <span class='label'>💰 Tiền cọc đã thanh toán:</span>
+            <span class='value' style='color: #2e7d32;'>{{amount}} VNĐ</span>
+          </div>
+
+          <div class='info-row'>
+            <span class='label'>✅ Trạng thái:</span>
+            <span class='value' style='color: #2e7d32;'>ĐÃ XÁC NHẬN</span>
+          </div>
+        </div>
+
+        <div class='steps'>
+          <h3 style='margin-top: 0; color: #f57c00;'>📌 Các bước tiếp theo:</h3>
+          
+          <div class='step'>
+            <span class='step-number'>1</span>
+            <strong>Liên hệ chủ nhà</strong> để sắp xếp thời gian nhận phòng và nhận chìa khóa
+          </div>
+
+          <div class='step'>
+            <span class='step-number'>2</span>
+            <strong>Chuẩn bị giấy tờ</strong>: CMND/CCCD, hợp đồng thuê nhà (nếu có)
+          </div>
+
+          <div class='step'>
+            <span class='step-number'>3</span>
+            <strong>Kiểm tra phòng</strong> kỹ lưỡng trước khi dọn vào và báo ngay nếu có vấn đề
+          </div>
+
+          <div class='step'>
+            <span class='step-number'>4</span>
+            <strong>Thanh toán tiền thuê</strong> theo thỏa thuận với chủ nhà
+          </div>
+        </div>
+
+        <p><strong>⚠️ Lưu ý quan trọng:</strong></p>
+        <ul>
+          <li>Vui lòng giữ email này làm bằng chứng thanh toán</li>
+          <li>Nếu có bất kỳ vấn đề gì với phòng, hãy liên hệ ngay với chúng tôi</li>
+          <li>Tiền cọc sẽ được hoàn lại khi kết thúc hợp đồng (theo thỏa thuận)</li>
+        </ul>
+
+        <div style='text-align: center;'>
+          <a href='{{actionUrl}}' class='button'>Xem chi tiết đặt phòng</a>
+        </div>
+
+        <p style='margin-top: 30px;'>Chúc bạn có trải nghiệm thuê phòng tuyệt vời! 🏡</p>
+
+        <p>Trân trọng,<br><strong>Đội ngũ Booking App</strong></p>
+      </div>
+
+      <div class='footer'>
+        <p><strong>Cần hỗ trợ?</strong></p>
+        <p>📧 Email: support@bookingapp.com | 📞 Hotline: 1900-xxxx</p>
+        <p style='margin-top: 15px;'>© 2025 Booking App. All rights reserved.</p>
+        <p>Email này được gửi tự động, vui lòng không trả lời.</p>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <style>
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: #333; line-height: 1.6; }
+        .container { max-width: 600px; margin: 0 auto; border: 1px solid #e0e0e0; border-radius: 8px; overflow: hidden; }
+        .header { background-color: #2e7d32; color: white; padding: 20px; text-align: center; }
+        .content { padding: 30px; }
+        .room-box { background-color: #f9f9f9; padding: 15px; border-left: 4px solid #2e7d32; margin: 20px 0; }
+        .btn { display: inline-block; padding: 12px 25px; background-color: #1a73e8; color: white; text-decoration: none; border-radius: 4px; font-weight: bold; }
+        .footer { padding: 20px; text-align: center; font-size: 12px; color: #888; border-top: 1px solid #eee; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h2>Yêu cầu đặt phòng đã được duyệt</h2>
+        </div>
+        <div class="content">
+            <p>Chào <strong>{{name}}</strong>,</p>
+            <p>Tin vui! Chủ nhà đã chấp nhận yêu cầu đặt phòng của bạn. Dưới đây là thông tin chi tiết:</p>
+            
+            <div class="room-box">
+                <strong>Phòng:</strong> {{roomTitle}}<br>
+                <strong>Trạng thái:</strong> Đã phê duyệt
+            </div>
+
+            <p>Để hoàn tất việc giữ chỗ, vui lòng tiến hành <strong>Thanh toán tiền cọc</strong> trong vòng 24 giờ tới theo đúng quy định của hệ thống.</p>
+            
+            <div style="text-align: center; margin-top: 30px;">
+                <a href="{{actionUrl}}" class="btn">Thanh toán tiền cọc ngay</a>
+            </div>
+        </div>
+        <div class="footer">
+            © 2025 Group 05 - Team Newbie. Hệ thống quản lý đặt phòng trực tuyến.
+        </div>
+    </div>
+</body>
+</html>
