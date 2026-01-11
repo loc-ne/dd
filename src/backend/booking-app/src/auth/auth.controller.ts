@@ -22,11 +22,13 @@ export class AuthController {
   constructor(private readonly authService: AuthService) { }
 
   private getCookieSettings() {
-    const isProduction = process.env.NODE_ENV === 'production';
     return {
       httpOnly: true,
-      secure: isProduction,
-      sameSite: isProduction ? ('none' as const) : ('lax' as const),
+      secure: true,      // Luôn luôn true để chạy trên HTTPS (Koyeb/Netlify)
+      sameSite: 'none' as const, // Bắt buộc là 'none' để gửi chéo domain
+      path: '/',         // Đảm bảo cookie có hiệu lực trên toàn bộ domain
+      // Nếu bạn muốn test ở localhost mà không có HTTPS, trình duyệt sẽ chặn SameSite: none.
+      // Nhưng vì bạn đang ưu tiên sửa để deploy, hãy giữ thế này.
     };
   }
 
@@ -133,11 +135,11 @@ export class AuthController {
   @HttpCode(HttpStatus.OK)
   async logout(@Res({ passthrough: true }) res: Response, @Req() req: Request) {
     const cookieSettings = this.getCookieSettings();
-    
+
     // Clear cookies with the same options used to set them
     res.clearCookie('access_token', cookieSettings);
     res.clearCookie('refresh_token', cookieSettings);
-    
+
     return {
       success: true,
       message: 'Logout successfully',
@@ -177,7 +179,7 @@ export class AuthController {
   @Get('google')
   @UseGuards(AuthGuard('google'))
   async googleAuth() {
-    
+
   }
 
 
@@ -185,7 +187,7 @@ export class AuthController {
   @UseGuards(AuthGuard('google'))
   async googleAuthCallback(@Req() req, @Res() res) {
     const { access_token, refresh_token } = await this.authService.googleLogin(req.user);
-    
+
     const cookieSettings = this.getCookieSettings();
 
     res.cookie('access_token', access_token, {
