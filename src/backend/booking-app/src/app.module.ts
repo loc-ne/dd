@@ -35,10 +35,10 @@ import { AiModule } from './ai/ai.module';
       transport: {
         host: 'smtp.gmail.com',
         port: 465,
-        secure: true, 
+        secure: true,
         auth: {
-          user: 'nakrothnguyen127@gmail.com', 
-          pass: 'ldcv jqxm iewu qddu',    
+          user: process.env.MAIL_MODULE_USER,
+          pass: process.env.MAIL_MODULE_PASS,
         },
       },
       defaults: {
