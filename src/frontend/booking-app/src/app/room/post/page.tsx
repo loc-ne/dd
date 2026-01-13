@@ -217,11 +217,11 @@ export default function CreatePostPage() {
                 if (requireVerification) {
                     // Case: Đăng tin nhưng chưa active email -> Redirect kèm cờ báo
                     toast.success("Đã lưu tin! Vui lòng xác thực email.");
-                    router.push('/dashboard/my-rooms?status=verification_needed');
+                    router.push('/dashboard/host/rooms?status=verification_needed');
                 } else {
                     // Case: Đăng tin thành công -> Chờ duyệt
                     toast.success("Đăng tin thành công! Đang chờ duyệt.");
-                    router.push('/dashboard/my-rooms?status=success');
+                    router.push('/dashboard/host/rooms?status=success');
                 }
             } else {
                 toast.error(data.message || "Có lỗi xảy ra khi đăng tin");
@@ -256,7 +256,7 @@ export default function CreatePostPage() {
 
             if (res.ok) {
                 toast.success("Đã lưu bản nháp thành công!");
-                router.push('/dashboard/my-rooms');
+                router.push('/dashboard/host/rooms');
             } else {
                 toast.error(data.message || "Không thể lưu bản nháp");
             }
