@@ -399,7 +399,7 @@ export default function EditPostPage() {
 
       if (res.ok && data.success) {
         toast.success("Cập nhật tin đăng thành công! Đang chờ duyệt...");
-        router.push("/dashboard/my-rooms");
+        router.push("/dashboard/host/rooms");
       } else {
         throw new Error(data.message || "Có lỗi xảy ra");
       }
@@ -428,7 +428,7 @@ export default function EditPostPage() {
 
       if (res.ok && data.success) {
         toast.success("Đã lưu bản nháp!");
-        router.push("/dashboard/my-rooms");
+        router.push("/dashboard/host/rooms");
       } else {
         throw new Error(data.message || "Có lỗi xảy ra");
       }
