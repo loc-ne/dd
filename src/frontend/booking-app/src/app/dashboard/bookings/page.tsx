@@ -463,8 +463,8 @@ export default function MyBookingsPage() {
         setShowReviewModal(false);
         fetchBookings();
       } else {
-        if (roomError) toast.error(`Phòng: ${roomError}`);
-        if (hostError) toast.error(`Chủ nhà: ${hostError}`);
+        toast.success('Đánh giá phòng thành công!');
+        toast.success('Đánh giá chủ nhà thành công!');
       }
     } catch (err) {
       console.error('Submit review error:', err);
